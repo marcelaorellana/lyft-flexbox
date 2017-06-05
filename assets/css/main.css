@@ -222,3 +222,48 @@ button#botonSignup{
 	height: 500px;
 	display: block;
 }
+/**************footer*****************/
+footer{
+	background-color: #333447;
+	color: white;
+	text-align: center;
+}
+.listas{
+	width: 100%;
+	justify-content: space-around;
+	box-sizing: border-box;
+	padding: 10px 15%;
+}
+.listas h3{
+	font-weight: 400;
+}
+.listas a{
+	display: block;
+	font-weight: 300;
+}
+.listas a:hover{
+	color: #ff00bf; /*rosado*/
+}
+.download img{
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin: 20px;
+}
+.iconos{
+	display: block;
+}
+.iconos i{
+	font-size: 30px;
+	margin: 15px;
+}
+.line{
+	background-color: white;
+	width: 60%;
+	height: 1px;
+	margin: auto;
+}
+footer p{
+	margin: 0;
+	padding: 20px;
+}
