@@ -33,5 +33,35 @@ document.getElementById("numberId").addEventListener("focus", function(){
 		document.getElementById("inputsId").appendChild(email);
 		document.getElementById("inputsId").appendChild(city);
 
+
+		document.getElementById("becomeButtonId").addEventListener("click", function(val){
+
+		if(telefono.value == "" || isNaN(telefono.value)){
+			telefono.classList.add('showInput');
+		}else{
+			telefono.classList.remove('showInput');
+		}
+
+		if(nombre.value.charAt(0) != nombre.value.charAt(0).toUpperCase() || nombre.value == ""){
+			
+			nombre.classList.add('showInput');
+		}else{
+			nombre.classList.remove('showInput');
+		}
+
+		if(email.value.indexOf("@") == -1){
+			email.classList.add('showInput');
+		}else{
+			email.classList.remove('showInput');
+		}
+
+		if(city.value.charAt(0) != city.value.charAt(0).toUpperCase() || city.value == ""){
+			city.classList.add('showInput');
+		}else{
+			city.classList.remove('showInput');
+		}
+
+		});
+
 	}
 });
