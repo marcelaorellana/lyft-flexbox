@@ -1,0 +1,66 @@
+body{
+	margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.71429;
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
+/**************Nav Bar ***********************/
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff00bf; /*rosado*/
+}
+
+.link{
+ 
+  padding: 21px;
+  display: inline-block;
+}
+
+.flex-container{
+	display: flex;
+}
+.menu{
+	background: transparent;
+    background-image: none;
+    border-color: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.menu.flex-container{
+	justify-content: flex-start;
+}
+.logo-container{
+	margin-right: auto;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.flex-container .logo{ /*imagen*/
+	width: 70px;
+	height: auto;
+}
+.menu button{
+	background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 10px;
+}
+.menu button:hover{
+	background-color: #ff00bf; /*rosado*/
+}
+button#botonSignup{
+	display: none;
+}
