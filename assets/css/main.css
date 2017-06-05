@@ -112,7 +112,7 @@ button#botonSignup{
 }
 
 .singup{
-	width: 500px;
+	width: 450px;
 	height: auto;
 	background-color: white;
 	margin-left: auto;
@@ -160,7 +160,9 @@ button#botonSignup{
     display: inline-block;
     font-size: 16px;
 }
-
+.singup button:hover{
+	background-color: #EA24B8;
+}
 .singup a{
 	color: #352384; /*azul*/
 	margin-left: 20px;
@@ -170,10 +172,17 @@ button#botonSignup{
 	margin: 20px 0;
 }
 .singup p{
-	font-size: 12px;
+	font-size: 10px;
 	line-height: 1.2;
-	padding: 0;
+	padding: 3px;
 	margin: 0;
+}
+.singup p a{
+	font-size: 10px;
+	line-height: 1.2;
+	padding: 3px;
+	margin: 0;
+	text-decoration: none;
 }
 /***********************Information********************/
 #information{
@@ -236,26 +245,39 @@ footer{
 }
 .listas h3{
 	font-weight: 400;
+	text-align: left;
 }
 .listas a{
 	display: block;
 	font-weight: 300;
+	padding: 10px 0;
+	text-align: left;
 }
 .listas a:hover{
 	color: #ff00bf; /*rosado*/
+}
+.download{
+	margin-top: 30px;
 }
 .download img{
 	width: 150px;
 	height: 50px;
 	display: block;
 	margin: 20px;
+	cursor: pointer;
 }
 .iconos{
 	display: block;
 }
 .iconos i{
 	font-size: 30px;
+	width: 30px;
+	height: 30px;
 	margin: 15px;
+	border: 1px solid white;
+	padding: 7px;
+	border-radius: 50%;
+	cursor: pointer;
 }
 .line{
 	background-color: white;
