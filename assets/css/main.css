@@ -64,3 +64,37 @@ a:hover {
 button#botonSignup{
 	display: none;
 }
+/***********************CAMBIAS*****************/
+.cambiaNav{
+	background-color: white;
+}
+.cambiaNav a{
+	color: black;
+}
+.cambiaNav a:hover{
+	color: #ff00bf; /*rosado*/
+}
+.cambiaNav .logo{
+	display: none;
+}
+.cambiaNav .logo-container{
+	background-image: url(../img/logo-pink.png);
+	background-position: center;
+    background-size: cover;
+	width: 70px;
+	height: 50px;
+}
+.cambiaNav button#botonLogin{
+	border: none;
+	color: black;
+}
+.cambiaNav button#botonSignup{
+	border: 2px solid #ff00bf; /*rosado*/
+	color: #ff00bf; /*rosado*/
+	display: inline;
+}
+.cambiaNav button#botonSignup:hover{
+	border: 2px solid #ff00bf; /*rosado*/
+	color: #ff00bf; /*rosado*/
+	background-color: white;
+}
