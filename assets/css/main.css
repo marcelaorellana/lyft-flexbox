@@ -61,10 +61,19 @@ a:hover {
 .menu button:hover{
 	background-color: #ff00bf; /*rosado*/
 }
+#espacioId{
+	content: "";
+	width: 108px;
+	height: 50px;
+	background-color: transparent;
+}
 button#botonSignup{
 	display: none;
 }
 /***********************CAMBIAS*****************/
+.cambiaNav #espacioId{
+	display: none;
+}
 .cambiaNav{
 	background-color: white;
 }
@@ -85,7 +94,7 @@ button#botonSignup{
 	height: 50px;
 }
 .cambiaNav button#botonLogin{
-	border: none;
+	border: 2px solid silver;
 	color: black;
 }
 .cambiaNav button#botonSignup{
@@ -208,7 +217,7 @@ button#botonSignup{
 	margin-left: auto;
 	margin-right: 30px;
 }
-/********************VIDEOS*******/
+/***********************VIDEOS******************/
 .videos{
 	flex-direction: row;
 	background-color: white;
